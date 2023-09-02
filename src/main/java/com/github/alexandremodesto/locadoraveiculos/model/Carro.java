@@ -8,8 +8,6 @@ import javax.persistence.*;
 
 @EqualsAndHashCode(callSuper = true)
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
 @Data
 public class Carro extends Veiculo {
 

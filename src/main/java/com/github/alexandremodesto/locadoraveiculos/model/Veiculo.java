@@ -1,9 +1,12 @@
 package com.github.alexandremodesto.locadoraveiculos.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
-public class Veiculo {
+@Data
+public class Veiculo{
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
