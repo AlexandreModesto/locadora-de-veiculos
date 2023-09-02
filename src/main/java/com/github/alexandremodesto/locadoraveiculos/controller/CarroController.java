@@ -41,8 +41,7 @@ public class CarroController {
         Optional<Carro> carroDesatualizado = service.getCarroById(id);
         var carroAtualizado = carroDesatualizado.get();
         carroAtualizado.setCombustivel(objCarro.getCombustivel());
-        carroAtualizado.setCor(objCarro.getCor());
-        carroAtualizado.setFlex(objCarro.getFlex());
+        carroAtualizado.(objCarro.getCor());
         carroAtualizado.setMotor(objCarro.getMotor());
         carroAtualizado.setPlaca(objCarro.getPlaca());
         carroAtualizado.setPortas(objCarro.getPortas());
