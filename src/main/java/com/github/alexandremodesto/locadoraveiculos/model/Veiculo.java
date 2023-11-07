@@ -1,8 +1,11 @@
 package com.github.alexandremodesto.locadoraveiculos.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
+@Data
 public class Veiculo {
 
     @Id
